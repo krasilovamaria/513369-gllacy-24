@@ -1,3 +1,33 @@
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  src:
+    local("Roboto Regular"),
+    url(../fonts/roboto.woff2) format("woff2"),
+    url(../fonts/roboto.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  src:
+    local("Roboto Medium"),
+    url(../fonts/robotomedium.woff2) format("woff2"),
+    url(../fonts/robotomedium.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: normal;
+  src:
+    local("Roboto Bold"),
+    url(../fonts/robotobold.woff2) format("woff2"),
+    url(../fonts/robotobold.woff) format("woff");
+}
+
 html {
   box-sizing: border-box;
 }
@@ -12,7 +42,7 @@ body {
   font-family: 'Roboto', Arial, sans-serif;;
   font-size: 16px;
   line-height: 22px;
-  font-weight: 700;
+  font-weight: 400;
   color: #fff;
   background-color: #849d8f;
 }
@@ -29,7 +59,7 @@ input[type="radio"].visually-hidden {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.l-wrap{
+.body-container {
   margin: 0 auto;
   padding: 0;
   width: 1200px;
@@ -44,7 +74,7 @@ input[type="radio"].visually-hidden {
 }
 .ul-navigation {
   margin-top: 29px;
-  margin-left: 204px;
+  margin-left: 205px;
   padding: 0;
   width: 380px;
   display: flex;
@@ -74,14 +104,16 @@ input[type="radio"].visually-hidden {
   bottom: -50px;
   font-size: 14px;
   line-height: 16px;
+  font-weight: 700;
 }
 .n-header-information {
   margin: 0;
   padding: 0;
   position: absolute;
   right: 26px;
-  bottom: -70px;
+  bottom: -68px;
   font-size: 22px;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 700;
 }
+
