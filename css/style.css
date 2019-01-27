@@ -66,6 +66,7 @@ input[type="radio"].visually-hidden {
 }
 .header-navigation {
   position: relative;
+  margin-bottom: 343px;
 }
 .main-header-logo {
   position: absolute;
@@ -116,4 +117,167 @@ input[type="radio"].visually-hidden {
   line-height: 24px;
   font-weight: 700;
 }
-
+.ul-bar {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0px;
+  right: 37px;
+  display: flex;
+  list-style: none;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.ul-bar li {
+  margin-right: 33px;
+}
+.ul-bar a {
+  text-decoration: none;
+  color: #fff;
+}
+.section-content {
+  margin-bottom: 137px;
+}
+.t-creme-brulee {
+  margin: 0 auto;
+  padding: 0;
+  width: 700px;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+.b-give-two {
+  margin: 0;
+  padding: 0;
+  width: 280px;
+  height: 64px;
+  position: absolute;
+  top: 540px;
+  right: 580px;
+  font: inherit;
+  color: inherit;
+  border: none;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 500;
+  box-shadow: 0px 2px 2px 0 rgba(172, 16, 0, 0.64);
+  background-image: linear-gradient(to top, #e74a35, #f26843);
+  border-radius: 50px;
+}
+.ul-slider {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  top: 562px;
+  left: 146px;
+  list-style: none;
+}
+.ul-slider li {
+  margin-right: 9px;
+}
+.slider-one {
+  height: 21px;
+  width: 21px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.slider-two {
+  height: 21px;
+  width: 21px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.slider-three {
+  height: 21px;
+  width: 21px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.section-content-two {
+  display: flex;
+  position: relative;
+}
+.section-rasberries {
+  margin: 0 26px;
+  padding: 0;
+  width: 560px;
+  height: 229px;
+  background-image: url(../img/i-rasberries.png);
+}
+.section-rasberries-h2 {
+  margin: 13px 19px;
+  padding: 0;
+  font-size: 35px;
+  line-height: 41px;
+  font-weight: 700;
+}
+.section-rasberries-p {
+  margin: 16px 19px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.b-want-jam {
+  margin: 0;
+  padding: 0;
+  width: 165px;
+  height: 46px;
+  position: absolute;
+  top: 159px;
+  left: 400px;
+  font: inherit;
+  color: inherit;
+  border: none;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  box-shadow: 0px 2px 2px 0 rgba(172, 16, 0, 0.64);
+  background-image: linear-gradient(to top, #e74a35, #f26843);
+  border-radius: 50px;
+}
+.section-chocolate {
+  margin: 0;
+  padding: 0;
+  width: 560px;
+  height: 229px;
+  background-image: url(../img/i-chocolate.png);
+}
+.section-chocolate-h2 {
+  margin: 13px 19px;
+  padding: 0;
+  font-size: 35px;
+  line-height: 41px;
+  font-weight: 700;
+}
+.section-chocolate-p {
+  margin: 16px 19px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.b-want-chocolates {
+  margin: 0;
+  padding: 0;
+  width: 189px;
+  height: 45px;
+  position: absolute;
+  top: 158px;
+  right: 47px;
+  font: inherit;
+  color: inherit;
+  border: none;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  box-shadow: 0px 2px 2px 0 rgba(172, 16, 0, 0.64);
+  background-image: linear-gradient(to top, #e74a35, #f26843);
+  border-radius: 50px;
+}
