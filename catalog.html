@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Глейси</title>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="body-container">
+
+    <!--Здесь будет header -->
+
+    <main class="inner-container">
+      <ul>
+        <li>Главная</li>
+        <li>Каталог</li>
+        <li>Сливочное</li>
+      </ul>
+      <section>
+        <h1>Сливочное мороженое</h1>
+        <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+          <fieldset>
+            <legend>Сортировка:</legend>
+            <a>по популярности</a>
+          </fieldset>
+          <fieldset>
+            <div class="filter-range">
+              <div class="filter-range-title">Цена: 100руб. - 500 руб.</div>
+              <div class="price-controls">
+                <label class="min-price">от <input type="text" name="min-price"></label>
+                <label class="max-price">до <input type="text" name="max-price"></label>
+              </div>
+              <div class="range-controls">
+                <div class="scale">
+                  <div class="bar"></div>
+                </div>
+                <div class="range-toggle range-toggle-min"></div>
+                <div class="range-toggle range-toggle-max"></div>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Жирность:</legend>
+            <ul>
+              <li>
+                <input type="checkbox" name="choco" id="filter-zero">
+                <label for="filter-zero">0%</label>
+              </li>
+              <li>
+                <input type="checkbox" name="motel" id="filter-ten" checked>
+                <label for="filter-ten">до 10%</label>
+              </li>
+              <li>
+                <input type="checkbox" name="motel" id="filter-before">
+                <label for="filter-before">до 30%</label>
+              </li>
+              <li>
+                <input type="checkbox" name="motel" id="filter-above">
+                <label for="filter-above">выше 30%</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Наполнители:</legend>
+            <ul>
+              <li>
+                <input type="checkbox" name="choco" id="filter-choco" checked>
+                <label for="filter-choco">шоколадные</label>
+              </li>
+              <li>
+                <input type="checkbox" name="motel" id="filter-sugar" checked>
+                <label for="filter-sugar">сахарные присыпки</label>
+              </li>
+              <li>
+                <input type="checkbox" name="motel" id="filter-fruit">
+                <label for="filter-fruit">фрукты</label>
+              </li>
+              <li>
+                <input type="checkbox" name="motel" id="filter-syrup">
+                <label for="filter-syrup">сиропы</label>
+              </li>
+              <li>
+                <input type="checkbox" name="motel" id="filter-jam">
+                <label for="filter-jam">джемы</label>
+              </li>
+            </ul>
+          </fieldset>
+          <button>Применить</button>
+        </form>
+      </section>
+      <section>
+        <ul>
+          <li>
+            <img src="img/i-orange.png" width="267" height="267" alt="Мороженое сливочное с апельсиновым джемом">
+            <h3>Cливочное с апельсиновым джемом и цитрусовой стружкой</h3>
+            <p>310 ₽/кг</p>
+          </li>
+          <li>
+            <img src="img/i-coffee.png" width="267" height="267" alt="Мороженое сливочное-кофейное">
+            <h3>Сливочно-кофейное с кусочками шоколада</h3>
+            <p>380 ₽/кг</p>
+          </li>
+          <li>
+            <img src="img/i-strawberry.png" width="267" height="267" alt="Мороженое сливочно-клубничное">
+            <h3>Сливочно-клубничное с присыпкой из белого шоколада</h3>
+            <p>355 ₽/кг</p>
+          </li>
+          <li>
+            <img src="img/i-caramel.png" width="267" height="267" alt="Мороженое крем-брюле">
+            <h3>Сливочное крем-брюле с карамельной подливкой</h3>
+            <p>415 ₽/кг</p>
+          </li>
+          <li>
+            <img src="img/c-cowberry.png" width="267" height="267" alt="Мороженое с брусничным джемом">
+            <h3>Сливочное с брусничным джемом</h3>
+            <p>325 ₽/кг</p>
+          </li>
+          <li>
+            <img src="img/c-blueberries.png" width="267" height="267" alt="Мороженое сливочно-черничное">
+            <h3>Сливочно-черничное с цельными ягодами черники</h3>
+            <p>410 ₽/кг</p>
+          </li>
+          <li>
+            <img src="img/c-lemon.png" width="267" height="267" alt="Мороженое сливочно-лимонное">
+            <h3>Сливочно-лимонное с карамельной присыпкой</h3>
+            <p>375 ₽/кг</p>
+          </li>
+          <li>
+            <img src="img/c-creamychoco.png" width="267" height="267" alt="Мороженое с шоколадной стружкой">
+            <h3>Сливочное с шоколадной стружкой</h3>
+            <p>320 ₽/кг</p>
+          </li>
+          <li>
+            <img src="img/c-creamychoco-vanilla.png" width="267" height="267" alt="Мороженое сливочно-ванильное">
+            <h3>Сливочно-ванильное с кусочками шоколада</h3>
+            <p>440 ₽/кг</p>
+          </li>
+          <li>
+            <img src="img/c-menthol.png" width="267" height="267" alt="Мороженое сливочное с ментоловым сиропом">
+            <h3>Сливочноe с ментоловым сиропом</h3>
+            <p>435 ₽/кг</p>
+          </li>
+          <li>
+            <img src="img/c-creamyblack.png" width="267" height="267" alt="Мороженое сливочное с черным шоколадом">
+            <h3>Сливочное с кусочками черного шоколада</h3>
+            <p>355 ₽/кг</p>
+          </li>
+          <li>
+            <img src="img/c-mint.png" width="267" height="267" alt="Мороженое сливочное с мятным сиропом">
+            <h3>Сливочное с мятным сиропом</h3>
+            <p>420 ₽/кг</p>
+          </li>
+        </ul>
+      </section>
+      <div>
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+        </ul>
+      </div>
+    </main>
+
+    <!--Здесь будет footer -->
+
+  </div>
+</body>
+</html>

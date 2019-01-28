@@ -138,6 +138,7 @@ input[type="radio"].visually-hidden {
 }
 .section-content {
   margin-bottom: 137px;
+  position: relative;
 }
 .t-creme-brulee {
   margin: 0 auto;
@@ -154,8 +155,8 @@ input[type="radio"].visually-hidden {
   width: 280px;
   height: 64px;
   position: absolute;
-  top: 540px;
-  right: 580px;
+  top: 150px;
+  right: 462px;
   font: inherit;
   color: inherit;
   border: none;
