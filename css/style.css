@@ -59,21 +59,21 @@ input[type="radio"].visually-hidden {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.body-container {
+.wrap {
   margin: 0 auto;
   padding: 0;
   width: 1200px;
 }
-.header-navigation {
+.header {
   position: relative;
   margin-bottom: 343px;
 }
-.main-header-logo {
+.main-navigation-img {
   position: absolute;
   top: -21px;
   left: 27px;
 }
-.ul-navigation {
+.main-navigation-list {
   margin-top: 29px;
   margin-left: 205px;
   padding: 0;
@@ -83,10 +83,10 @@ input[type="radio"].visually-hidden {
   list-style: none;
   line-height: 18px;
 }
-.ul-navigation li {
+.main-navigation-list li {
   margin-right: 28px;
 }
-.ul-navigation a {
+.main-navigation-list a {
   text-decoration: none;
   color: #fff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -96,7 +96,7 @@ input[type="radio"].visually-hidden {
   top: -5px;
   right: 217px;
 }
-.t-header-information {
+.user-text {
   margin: 0;
   padding: 0;
   margin-bottom: 10px;
@@ -107,7 +107,7 @@ input[type="radio"].visually-hidden {
   line-height: 16px;
   font-weight: 700;
 }
-.n-header-information {
+.user-text-tel {
   margin: 0;
   padding: 0;
   position: absolute;
@@ -116,8 +116,10 @@ input[type="radio"].visually-hidden {
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;
+  color: #fff;
+  border: none;
 }
-.ul-bar {
+.user-navigation {
   margin: 0;
   padding: 0;
   position: absolute;
@@ -129,18 +131,18 @@ input[type="radio"].visually-hidden {
   line-height: 16px;
   font-weight: 500;
 }
-.ul-bar li {
+.user-navigation li {
   margin-right: 33px;
 }
-.ul-bar a {
+.user-navigation a {
   text-decoration: none;
   color: #fff;
 }
-.section-content {
+.entry-content {
   margin-bottom: 137px;
   position: relative;
 }
-.t-creme-brulee {
+.entry-title {
   margin: 0 auto;
   padding: 0;
   width: 700px;
@@ -149,7 +151,7 @@ input[type="radio"].visually-hidden {
   font-weight: 700;
   text-align: center;
 }
-.b-give-two {
+.entry-btn {
   margin: 0;
   padding: 0;
   width: 280px;
@@ -167,7 +169,7 @@ input[type="radio"].visually-hidden {
   background-image: linear-gradient(to top, #e74a35, #f26843);
   border-radius: 50px;
 }
-.ul-slider {
+.slider {
   margin: 0;
   padding: 0;
   display: flex;
@@ -176,7 +178,7 @@ input[type="radio"].visually-hidden {
   left: 146px;
   list-style: none;
 }
-.ul-slider li {
+.slider li {
   margin-right: 9px;
 }
 .slider-one {
@@ -200,32 +202,32 @@ input[type="radio"].visually-hidden {
   border-radius: 10px;
   background-color: transparent;
 }
-.section-content-two {
+.section {
   display: flex;
   position: relative;
 }
-.section-rasberries {
+.section-text {
   margin: 0 26px;
   padding: 0;
   width: 560px;
   height: 229px;
   background-image: url(../img/i-rasberries.png);
 }
-.section-rasberries-h2 {
+.section-text h2 {
   margin: 13px 19px;
   padding: 0;
   font-size: 35px;
   line-height: 41px;
   font-weight: 700;
 }
-.section-rasberries-p {
+.section-text p {
   margin: 16px 19px;
   padding: 0;
   font-size: 18px;
   line-height: 22px;
   font-weight: 500;
 }
-.b-want-jam {
+.section-btn {
   margin: 0;
   padding: 0;
   width: 165px;
@@ -243,21 +245,21 @@ input[type="radio"].visually-hidden {
   background-image: linear-gradient(to top, #e74a35, #f26843);
   border-radius: 50px;
 }
-.section-chocolate {
+.section-text__item {
   margin: 0;
   padding: 0;
   width: 560px;
   height: 229px;
   background-image: url(../img/i-chocolate.png);
 }
-.section-chocolate-h2 {
+.section-text__item h2 {
   margin: 13px 19px;
   padding: 0;
   font-size: 35px;
   line-height: 41px;
   font-weight: 700;
 }
-.section-chocolate-p {
+.section-text__item p {
   margin: 16px 19px;
   padding: 0;
   font-size: 18px;
