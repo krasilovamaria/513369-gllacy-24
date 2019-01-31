@@ -202,7 +202,7 @@ input[type="radio"].visually-hidden {
   border-radius: 10px;
   background-color: transparent;
 }
-.section {
+.special-offers {
   display: flex;
   position: relative;
 }
@@ -245,21 +245,21 @@ input[type="radio"].visually-hidden {
   background-image: linear-gradient(to top, #e74a35, #f26843);
   border-radius: 50px;
 }
-.section-text__item {
+.section-text-item {
   margin: 0;
   padding: 0;
   width: 560px;
   height: 229px;
   background-image: url(../img/i-chocolate.png);
 }
-.section-text__item h2 {
+.section-text-item h2 {
   margin: 13px 19px;
   padding: 0;
   font-size: 35px;
   line-height: 41px;
   font-weight: 700;
 }
-.section-text__item p {
+.section-text-item p {
   margin: 16px 19px;
   padding: 0;
   font-size: 18px;
