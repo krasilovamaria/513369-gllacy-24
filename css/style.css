@@ -131,9 +131,6 @@ input[type="radio"].visually-hidden {
   line-height: 16px;
   font-weight: 500;
 }
-.user-navigation li {
-  margin-right: 33px;
-}
 .user-navigation a {
   text-decoration: none;
   color: #fff;
