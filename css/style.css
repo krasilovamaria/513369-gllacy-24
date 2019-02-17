@@ -37,6 +37,7 @@ html {
   box-sizing: inherit;
 }
 body {
+  min-width: 1200px;
   font-family: 'Roboto', 'Arial', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -170,6 +171,10 @@ input[type='radio'].visually-hidden {
 
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
+.main-navigation-item {
+  position: relative;
+  z-index: 1;
+}
 .main-navigation-item a:hover,
 .main-navigation-item a:focus {
   display: inline-block;
@@ -194,10 +199,10 @@ input[type='radio'].visually-hidden {
   background-color: #fff;
   box-shadow: 0 -2px 0 #696969;
 }
-.main-navigation-title {
+.main-navigation-submenu {
   position: absolute;
-  top: 58px;
-  left: 305px;
+  top: 38px;
+  left: -6px;
 
   display: none;
 
@@ -208,16 +213,16 @@ input[type='radio'].visually-hidden {
   background-color: #f8f7f4;
   box-shadow: 0 20px 20px 0 rgba(0, 0, 0, .4);
 }
-.main-navigation-title a {
+.main-navigation-submenu a {
   font-size: 14px;
   line-height: 16px;
 
   color: #323232;
 }
-.main-navigation-title::before {
+.navigation-submenu-item::before {
   position: absolute;
-  top: 39px;
-  left: 9px;
+  top: 37px;
+  left: 7px;
 
   width: 128px;
   height: 1px;
@@ -226,7 +231,7 @@ input[type='radio'].visually-hidden {
 
   background-color: #d1d0ce;
 }
-.main-navigation-list:hover .main-navigation-title {
+.main-navigation-item:hover .main-navigation-submenu {
   display: block;
 }
 .main-navigation-submenu {
@@ -236,7 +241,7 @@ input[type='radio'].visually-hidden {
   list-style: none;
 }
 .main-navigation-submenu li:first-child {
-  padding-top: 6px;
+  padding-top: 4px;
   padding-left: 6px;
   padding-bottom: 9px;
 }
@@ -252,13 +257,16 @@ input[type='radio'].visually-hidden {
   padding-bottom: 9px;
 }
 .main-navigation-submenu li:hover,
-.main-navigation-submenu li:focus {
-  display: inline-block;
-
-  vertical-align: middle;
-
-  border: none;
+.main-navigation-submenu li:focus,
+.main-navigation-submenu a:hover,
+.main-navigation-submenu a:focus {
   background-color: #fbded8;
+}
+.main-navigation-submenu li:active,
+.main-navigation-submenu li:active,
+.main-navigation-submenu a:active,
+.main-navigation-submenu a:active {
+  background-color: #f6b5a5;
 }
 .user-navigation {
   font-size: 14px;
@@ -275,7 +283,9 @@ input[type='radio'].visually-hidden {
   list-style: none;
 }
 .user-search {
+  position: relative;
   margin-right: 10px;
+  z-index: 1;
 }
 .user-search-link {
   display: inline-block;
@@ -301,8 +311,8 @@ input[type='radio'].visually-hidden {
 }
 .modal {
   position: absolute;
-  top: 57px;
-  right: 359px;
+  top: 35px;
+  right: 4px;
 
   display: none;
 
@@ -332,7 +342,9 @@ input[type='radio'].visually-hidden {
   display: block;
 }
 .user-element {
+  position: relative;
   margin-right: 8px;
+  z-index: 1;
 }
 .user-element-link {
   display: inline-block;
@@ -365,8 +377,8 @@ input[type='radio'].visually-hidden {
 }
 .modal-login {
   position: absolute;
-  top: 58px;
-  right: 256px;
+  top: 36px;
+  right: 2px;
 
   display: none;
 
