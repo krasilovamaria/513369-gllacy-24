@@ -7,14 +7,18 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+  <input class="visually-hidden" type="radio" id="product-1" name="toggle" checked>
+    <input class="visually-hidden" type="radio" id="product-2" name="toggle">
+    <input class="visually-hidden" type="radio" id="product-3" name="toggle">
   <div class="wrap">
+    <div class="container">
     <header class="header">
       <nav class="main-navigation">
         <a class="main-navigation-logo">
           <img class="main-navigation-img" src="img/logo.svg" width="154" height="64" alt="Логотип «GllacyShop»">
         </a>
         <ul class="main-navigation-list">
-          <li><a href="catalog.html"><span>Каталог</span></a>
+          <li class="main-navigation-item"><a href="catalog.html"><span>Каталог</span></a>
             <div class="main-navigation-title">
               <ul class="main-navigation-submenu">
                 <li><a href="#">Новинки</a></li>
@@ -25,8 +29,8 @@
               </ul>
             </div>
           </li>
-          <li><a href="#"><span>Доставка и оплата</span></a></li>
-          <li><a href="#"><span>О Компании</span></a></li>
+          <li class="main-navigation-item"><a href="#"><span>Доставка и оплата</span></a></li>
+          <li class="main-navigation-item"><a href="#"><span>О Компании</span></a></li>
         </ul>
       </nav>
       <div class="user-navigation">
@@ -94,15 +98,33 @@
     </header>
     <main class="main-container">
       <h1 class="visually-hidden">Магазин мороженного глейси</h1>
-      <section class="entry-content">
-        <p class="entry-title">Крем-брюле и пломбир с малиновым джемом</p>
-        <a class="btn entry-btn" href="#">Давайте оба!</a>
-        <ul class="slider">
-          <li><button class="slider-one" type="button"></button></li>
-          <li><button class="slider-two" type="button"></button></li>
-          <li><button class="slider-three" type="button"></button></li>
-        </ul>
-      </section>
+      <section class="slider">
+          <div class="slider-controls">
+            <label for="product-1">Первый</label>
+            <label for="product-2">Второй</label>
+            <label for="product-3">Третий</label>
+          </div>
+          <ul class="slider-list">
+            <li class="slider-item slide" id="slide1">
+              <h3 class="slide-title">
+                Крем-брюле и пломбир с малиновым джемом
+              </h3>
+              <a class="button slide-button" href="#">Давайте оба!</a>
+            </li>
+            <li class="slider-item slide" id="slide2">
+              <h3 class="slide-title">
+                Шоколадный пломбир и лимонный сорбет
+              </h3>
+              <a class="button slide-button" href="#">Давайте оба!</a>
+            </li>
+            <li class="slider-item slide" id="slide3">
+              <h3 class="slide-title">
+                Пломбир с помадкой и клубничный щербет
+              </h3>
+              <a class="button slide-button" href="#">Давайте оба!</a>
+            </li>
+          </ul>
+        </section>
       <div class="special-offers">
         <h2 class="visually-hidden">Специальные предложения</h2>
         <section class="section-text">
@@ -274,5 +296,6 @@
               </div>
             </footer>
           </div>
+        </div>
         </body>
         </html>
