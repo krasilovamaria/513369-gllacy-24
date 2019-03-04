@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>HTML Academy: Глейси</title>
   <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
 </head>
 <body>
   <input class="visually-hidden" type="radio" id="product-1" name="toggle" checked>
@@ -155,8 +155,9 @@
                 <h3 class="product-item-title">
                   <a class="link product-item-hit" href="#">Cливочное с апельсиновым джемом и цитрусовой стружкой</a>
                 </h3>
-                <p class="product-item-price">310 ₽</p>
-                <p class="product-item-weight">/кг</p>
+                <p class="product-item-price">310 ₽
+                <span class="product-item-weight">/кг</span>
+                </p>
               </div>
               <div class="product-item-cover">
                 <a class="btn preview-button" href="#">Быстрый просмотр</a>
@@ -168,8 +169,9 @@
                 <h3 class="product-item-title">
                   <a class="link product-item-hit" href="#">Сливочно-кофейное с кусочками шоколада</a>
                 </h3>
-                <p class="product-item-price">380 ₽</p>
-                <p class="product-item-weight">/кг</p>
+                <p class="product-item-price">380 ₽
+                <span class="product-item-weight">/кг</span>
+                </p>
               </div>
               <div class="product-item-cover">
                 <a class="btn preview-button" href="#">Быстрый просмотр</a>
@@ -181,8 +183,9 @@
                 <h3 class="product-item-title">
                   <a class="link product-item-hit" href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
                 </h3>
-                <p class="product-item-price">355 ₽</p>
-                <p class="product-item-weight">/кг</p>
+                <p class="product-item-price">355 ₽
+                <span class="product-item-weight">/кг</span>
+                </p>
               </div>
               <div class="product-item-cover">
                 <a class="btn preview-button" href="#">Быстрый просмотр</a>
@@ -194,8 +197,9 @@
                 <h3 class="product-item-title">
                   <a class="link product-item-hit" href="#">Сливочное крем-брюле с карамельной подливкой</a>
                 </h3>
-                <p class="product-item-price">415 ₽</p>
-                <p class="product-item-weight">/кг</p>
+                <p class="product-item-price">415 ₽
+                <span class="product-item-weight">/кг</span>
+                </p>
               </div>
               <div class="product-item-cover">
                 <a class="btn preview-button" href="#">Быстрый просмотр</a>
@@ -221,10 +225,10 @@
             </h3>
           </article>
           <section class="subscribe">
-            <h2 class="visually-hidden">Подпишитесь</h2>
+           <h2 class="visually-hidden">Подпишитесь</h2>
             <p class="subscribe-text">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
             <form class="subscribe-form">
-              <label for="subscribe-email"></label>
+              <label class="visually-hidden" for="subscribe-email">Ваша электронная почта</label>
               <input type="email" id="subscribe-email" name="subscribe-email" placeholder="Электронная почта">
               <button class="btn subscribe-btn" type="submit">Отправить</button>
             </form>
@@ -248,7 +252,7 @@
         </section>
         <div class="modal-feedback popup-clik">
           <h2 class="visually-hidden">Форма обратной связи</h2>
-          <button class="modal-close" type="submit">Закрыть</button>
+          <button class="modal-close" type="button">Закрыть</button>
           <form method="post">
             <p class="modal-caption">Мы обязательно вам ответим!</p>
             <p class="modal-callback-name">
@@ -312,6 +316,6 @@
       </footer>
     </div>
   </div>
-  <script src="js/gllacy.js"></script>
+  <script src="js/gllacy.min.js"></script>
 </body>
 </html>
