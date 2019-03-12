@@ -526,7 +526,7 @@ body {
 }
 .button {
   display: inline-block;
-  padding: 12px 44px;
+  padding: 10px 44px;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
@@ -552,7 +552,7 @@ body {
 }
 .slider-controls {
   position: absolute;
-  bottom: 26px;
+  bottom: 22px;
   left: 0;
   z-index: 20;
   font-size: 0;
@@ -595,8 +595,8 @@ body {
 .special-offers {
   position: relative;
   display: flex;
-  margin-top: 37px;
-  margin-bottom: 40px;
+  margin-top: 41px;
+  margin-bottom: 41px;
 }
 .section-text {
   width: 560px;
@@ -607,6 +607,7 @@ body {
   background-image: url("../img/i-rasberries.jpg");
   border-radius: 15px;
   background-repeat: repeat;
+  align-items: flex-start;
 }
 .section-text h3 {
   margin: 13px 19px;
@@ -642,6 +643,7 @@ body {
   background-image: url("../img/i-chocolate.jpg");
   border-radius: 15px;
   background-repeat: repeat;
+  align-items: flex-start;
 }
 .section-text-item h3 {
   margin: 13px 19px;
@@ -727,7 +729,7 @@ body {
 .product-item-weight {
   position: absolute;
   top: 6px;
-  left: 114px;
+  left: 82px;
   min-width: 50px;
   margin: 0;
   padding: 0;
@@ -769,7 +771,7 @@ body {
 }
 .main-description {
   min-height: 306px;
-  margin-bottom: 40px;
+  margin-bottom: 41px;
   padding: 24px 31px 2px 20px;
   color: #323232;
   background-color: #c4c3b0;
@@ -854,7 +856,7 @@ body {
 }
 .main-blog-title {
   margin: 0;
-  padding: 24px 18px;
+  padding: 22px 18px;
   padding-bottom: 4px;
   font-weight: 500;
   font-size: 16px;
@@ -867,7 +869,7 @@ body {
 .main-blog-link {
   display: inline-block;
   width: 289px;
-  margin-bottom: 78px;
+  margin-bottom: 81px;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
@@ -890,7 +892,7 @@ body {
 .subscribe-text {
   display: inline-block;
   margin: 0;
-  padding: 36px 27px;
+  padding: 33px 27px;
   padding-bottom: 4px;
   font-size: 16px;
   line-height: 22px;
@@ -944,7 +946,7 @@ body {
 }
 .contacts-address {
   position: absolute;
-  top: 64px;
+  top: 63px;
   right: 1px;
   width: 300px;
   padding: 28px 24px;
@@ -979,10 +981,10 @@ body {
   line-height: 22px;
 }
 .callback-link {
-  margin-bottom: 4px;
+  margin-bottom: 6px;
   padding-left: 28px;
   padding-right: 25px;
-  padding-top: 6px;
+  padding-top: 7px;
   padding-bottom: 10px;
   font-weight: 700;
   font-size: 18px;
@@ -1008,59 +1010,31 @@ body {
   -webkit-animation: bounce 0.25s;
   animation: bounce 0.25s;
 }
-@-webkit-keyframes bounce {
-  0% {
-    -webkit-transform: translateY(-2000px);
-    transform: translateY(-2000px);
-  }
-  70% {
-    -webkit-transform: translateY(30px);
-    transform: translateY(30px);
-  }
-  90% {
-    -webkit-transform: translateY(-10px);
-    transform: translateY(-10px);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
 @keyframes bounce {
   0% {
     -webkit-transform: translateY(-2000px);
     transform: translateY(-2000px);
+    transform: translateX(-50%);
   }
   70% {
     -webkit-transform: translateY(30px);
     transform: translateY(30px);
+    transform: translateX(-50%);
   }
   90% {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
+    transform: translateX(-50%);
   }
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
+    transform: translateX(-50%);
   }
 }
 .feedback-shake {
   -webkit-animation: shake 0.6s;
   animation: shake 0.6s;
-}
-@-webkit-keyframes shake {
-  0%, 100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-  10%, 30%, 50%, 70%, 90% {
-    -webkit-transform: translateX(-10px);
-    transform: translateX(-10px);
-  }
-  20%, 40%, 60%, 80% {
-    -webkit-transform: translateX(10px);
-    transform: translateX(10px);
-  }
 }
 @keyframes shake {
   0%, 100% {
@@ -1163,7 +1137,7 @@ body {
 }
 .main-footer {
   display: flex;
-  margin: 1px -27px;
+  margin: -1px -27px;
   padding: 0;
 }
 .social-items {
@@ -1278,7 +1252,7 @@ body {
 .user-basket-inner {
   padding-top: 8px;
   padding-right: 15px;
-  padding-bottom: 9px;
+  padding-bottom: 7px;
   padding-left: 45px;
   font-weight: 500;
   font-size: 14px;
@@ -1491,7 +1465,8 @@ body {
 .sorting {
   position: relative;
   margin-top: -3px;
-  padding: 9px 5px 9px 14px;
+  margin-right: 3px;
+  padding: 9px 5px 7px 11px;
   color: #ffffff;
   background-color: rgba(248, 247, 244, 0.2);
   border-radius: 50px;
@@ -1529,6 +1504,8 @@ body {
 .sorting option {
   font-size: 14px;
   line-height: 16px;
+  font-weight: 400;
+  color: #323232;
 }
 .sorting:hover {
   background-color: rgba(248, 247, 244, 0.2);
@@ -1635,7 +1612,6 @@ body {
   flex-wrap: wrap;
   width: 415px;
   margin: 0;
-  margin-top: 3px;
   margin-left: -14px;
   padding: 0;
   padding-top: 10px;
@@ -1714,7 +1690,7 @@ body {
   border-radius: 20px;
 }
 .filter-option {
-  margin-top: 9px;
+  margin-top: 6px;
   margin-left: -5px;
 }
 .option {
@@ -1764,7 +1740,7 @@ body {
   width: 144px;
   height: 37px;
   margin-top: 22px;
-  margin-left: 14px;
+  margin-left: 13px;
   font-weight: 500;
   font-size: 16px;
   line-height: 18px;
@@ -1785,7 +1761,7 @@ body {
   box-shadow: inset 0 2px 1px 0 #696969;
 }
 .catalog-item-all {
-  margin-bottom: 39px;
+  margin-bottom: 41px;
 }
 .catalog-items {
   display: flex;
@@ -1797,7 +1773,7 @@ body {
 }
 .catalog-item {
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 39px;
 }
 .catalog-item:hover .catalog-item-cover {
   display: block;
@@ -1874,7 +1850,7 @@ body {
 .catalog-item-weight {
   position: absolute;
   top: 7px;
-  left: 113px;
+  left: 81px;
   min-width: 50px;
   margin: 0;
   padding: 0;
@@ -1983,7 +1959,7 @@ body {
   z-index: 50;
   display: none;
   width: 100%;
-  height: 100%;
+ overlay height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }

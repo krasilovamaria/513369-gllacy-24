@@ -47,7 +47,7 @@ closeFeedback.addEventListener('click', function() {
 });
 
 overlay.addEventListener('click', function() {
-  this.style.display = 'none'
+  this.style.display = 'none';
   feedback.classList.remove('feedback-showed');
   feedback.classList.remove('feedback-shake');
 });
