@@ -330,6 +330,11 @@ body {
   text-align: left;
   color: #999999;
 }
+.modal-feedback::-ms-input-placeholder {
+  font-weight: 300;
+  text-align: left;
+  color: #999999;
+}
 .modal-form-item:hover {
   box-shadow: 0 0 0 2px rgba(154, 154, 154, 0.52);
 }
@@ -374,6 +379,11 @@ body {
   color: #323232;
 }
 .modal-login input::placeholder {
+  font-weight: 300;
+  text-align: left;
+  color: #999999;
+}
+.modal-login input::-ms-input-placeholder {
   font-weight: 300;
   text-align: left;
   color: #999999;
@@ -916,6 +926,10 @@ body {
   font-weight: 400;
   color: #999999;
 }
+.subscribe input::-ms-input-placeholder {
+  font-weight: 400;
+  color: #999999;
+}
 .subscribe input:hover {
   box-shadow: 0 0 0 2px rgba(154, 154, 154, 0.52);
 }
@@ -1111,6 +1125,11 @@ body {
   padding: 9px 0 14px 14px;
 }
 .modal-feedback input::placeholder, .modal-feedback textarea::placeholder {
+  font-weight: 400;
+  color: #999999;
+}
+.modal-feedback::-ms-input-placeholder,
+.modal-feedback textarea::-ms-input-placeholder {
   font-weight: 400;
   color: #999999;
 }
