@@ -1241,45 +1241,45 @@ input[type="radio"].visually-hidden {
 @-webkit-keyframes shake {
   0%,
   100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
+    -webkit-transform: translateX(-50%) translateX(0);
+    transform: translateX(-50%) translateX(0);
   }
   10%,
   30%,
   50%,
   70%,
   90% {
-    -webkit-transform: translateX(-10px);
-    transform: translateX(-10px);
+    -webkit-transform: translateX(-50%) translateX(0);
+    transform: translateX(-50%) translateX(-10px);
   }
   20%,
   40%,
   60%,
   80% {
-    -webkit-transform: translateX(10px);
-    transform: translateX(10px);
+    -webkit-transform: ttranslateX(-50%) translateX(0);
+    transform: translateX(-50%) translateX(10px);
   }
 }
 @keyframes shake {
   0%,
   100% {
-    -webkit-transform: translateX(0px);
-    transform: translateX(0px);
+    -webkit-transform: translateX(-50%) translateX(0);
+    transform: translateX(-50%) translateX(0px);
   }
   10%,
   30%,
   50%,
   70%,
   90% {
-    -webkit-transform: translateX(-10px);
-    transform: translateX(-10px);
+    -webkit-transform: translateX(-50%) translateX(-10px);
+    transform: translateX(-50%) translateX(-10px);
   }
   20%,
   40%,
   60%,
   80% {
-    -webkit-transform: translateX(10px);
-    transform: translateX(10px);
+    -webkit-transform: translateX(-50%) translateX(10px);
+    transform: translateX(-50%) translateX(10px);
   }
 }
 .modal-caption {
